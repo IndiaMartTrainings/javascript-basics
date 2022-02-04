@@ -9,9 +9,9 @@ this
 Bind call apply
 Closures
 Scope of Objects
-Prototypes
 Class
 Inheritance
+Prototypes
 Polymorphism
 Error Handling
 Singleton
@@ -244,6 +244,8 @@ Inner functions having access to the variables of outer functions
 
 Bind vs call vs apply
 -----------------------
+
+** if you pass ptimitive values through bind it will covert them to object type
 
 bind - sets `this` keyword and creates a copy of that function
 
