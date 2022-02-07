@@ -154,8 +154,17 @@
 //  data.pop()
 //  console.log(data.pop())
 
-for(let count=0; count<3;count++){
-    console.log(count)
-}
+// for(let count=0; count<3;count++){
+//     console.log(count)
+// }
 
-console.log(count)
+// console.log(count)
+
+console.log(1==1)
+console.log(1=='1') // it will only check for value not the type
+
+console.log(1===1)
+console.log(1==='1') // This will check for both value and type
+
+console.log(typeof 1)
+console.log(typeof '1')
